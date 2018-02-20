@@ -4,6 +4,10 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+/*For the Algorithms/Maximizing XOR challenge. 
+* I wrote a C version as well.
+*/
+
 public class Solution {
 
     static int maximizingXor(int l, int r) {
@@ -25,4 +29,5 @@ public class Solution {
         System.out.println(result);
         in.close();
     }
+
 }
